@@ -3,7 +3,7 @@
 # 1. 简介
 一个实现DNS爆破的库
 
-参考文章：[https://www.birdy02.com/2024/10/14/20561f85-40a8-4cb0-9f46-705eb2aae562] https://www.birdy02.com/2024/10/14/20561f85-40a8-4cb0-9f46-705eb2aae562
+参考文章：https://www.birdy02.com/2024/10/14/20561f85-40a8-4cb0-9f46-705eb2aae562
 ```
 >> python onlySubDomain.py
 >> [*] 请输入域名: birdy02.com
