@@ -92,7 +92,7 @@ class DnsDomain:
     def get_subdomains(cls, dom: str) -> list:
         try:
             sub_pre = []
-            with open('config/sub.txt', 'r') as f:
+            with open('sub.txt', 'r') as f:
                 [sub_pre.append(i.strip() + '.') for i in f.read().split('\n') if
                  i.strip() and i.strip() not in sub_pre]
                 return [i + dom for i in sub_pre]
